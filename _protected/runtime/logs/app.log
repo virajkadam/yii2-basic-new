@@ -15655,3 +15655,993 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1591596371.126
     'REQUEST_TIME' => 1591596371
 ]
+2020-06-08 06:09:13 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/images/logo-dark.png". in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/images/l...', Array)
+#1 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-06-08 06:09:13 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '5294f0eeqks2rf26m4hk8fd1vr'
+    '_csrf' => '3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gjE5RdTYc_eGMPoin8pTi_HonMdLh6su\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/yii2-basic-new/'
+    'HTTP_COOKIE' => 'PHPSESSID=5294f0eeqks2rf26m4hk8fd1vr; _csrf=3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gjE5RdTYc_eGMPoin8pTi_HonMdLh6su%22%3B%7D'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2-basic-new/index.php'
+    'REMOTE_PORT' => '59812'
+    'REDIRECT_URL' => '/yii2-basic-new/assets/images/logo-dark.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-basic-new/assets/images/logo-dark.png'
+    'SCRIPT_NAME' => '/yii2-basic-new/index.php'
+    'PHP_SELF' => '/yii2-basic-new/index.php'
+    'REQUEST_TIME_FLOAT' => 1591596553.056
+    'REQUEST_TIME' => 1591596553
+]
+2020-06-08 06:09:13 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/images/logo-sm-light.png". in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/images/l...', Array)
+#1 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-06-08 06:09:13 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '5294f0eeqks2rf26m4hk8fd1vr'
+    '_csrf' => '3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gjE5RdTYc_eGMPoin8pTi_HonMdLh6su\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/yii2-basic-new/'
+    'HTTP_COOKIE' => 'PHPSESSID=5294f0eeqks2rf26m4hk8fd1vr; _csrf=3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gjE5RdTYc_eGMPoin8pTi_HonMdLh6su%22%3B%7D'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2-basic-new/index.php'
+    'REMOTE_PORT' => '59814'
+    'REDIRECT_URL' => '/yii2-basic-new/assets/images/logo-sm-light.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-basic-new/assets/images/logo-sm-light.png'
+    'SCRIPT_NAME' => '/yii2-basic-new/index.php'
+    'PHP_SELF' => '/yii2-basic-new/index.php'
+    'REQUEST_TIME_FLOAT' => 1591596553.056
+    'REQUEST_TIME' => 1591596553
+]
+2020-06-08 06:09:13 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/images/logo-light.png". in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/images/l...', Array)
+#1 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-06-08 06:09:13 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '5294f0eeqks2rf26m4hk8fd1vr'
+    '_csrf' => '3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gjE5RdTYc_eGMPoin8pTi_HonMdLh6su\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/yii2-basic-new/'
+    'HTTP_COOKIE' => 'PHPSESSID=5294f0eeqks2rf26m4hk8fd1vr; _csrf=3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gjE5RdTYc_eGMPoin8pTi_HonMdLh6su%22%3B%7D'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2-basic-new/index.php'
+    'REMOTE_PORT' => '59816'
+    'REDIRECT_URL' => '/yii2-basic-new/assets/images/logo-light.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-basic-new/assets/images/logo-light.png'
+    'SCRIPT_NAME' => '/yii2-basic-new/index.php'
+    'PHP_SELF' => '/yii2-basic-new/index.php'
+    'REQUEST_TIME_FLOAT' => 1591596553.056
+    'REQUEST_TIME' => 1591596553
+]
+2020-06-08 06:09:13 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/images/logo-sm-dark.png". in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/images/l...', Array)
+#1 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-06-08 06:09:13 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '5294f0eeqks2rf26m4hk8fd1vr'
+    '_csrf' => '3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gjE5RdTYc_eGMPoin8pTi_HonMdLh6su\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/yii2-basic-new/'
+    'HTTP_COOKIE' => 'PHPSESSID=5294f0eeqks2rf26m4hk8fd1vr; _csrf=3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gjE5RdTYc_eGMPoin8pTi_HonMdLh6su%22%3B%7D'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2-basic-new/index.php'
+    'REMOTE_PORT' => '59818'
+    'REDIRECT_URL' => '/yii2-basic-new/assets/images/logo-sm-dark.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-basic-new/assets/images/logo-sm-dark.png'
+    'SCRIPT_NAME' => '/yii2-basic-new/index.php'
+    'PHP_SELF' => '/yii2-basic-new/index.php'
+    'REQUEST_TIME_FLOAT' => 1591596553.056
+    'REQUEST_TIME' => 1591596553
+]
+2020-06-08 06:44:29 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/images/users/avatar-1.jpg". in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/images/u...', Array)
+#1 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-06-08 06:44:29 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '5294f0eeqks2rf26m4hk8fd1vr'
+    '_csrf' => '3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gjE5RdTYc_eGMPoin8pTi_HonMdLh6su\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/yii2-basic-new/'
+    'HTTP_COOKIE' => 'PHPSESSID=5294f0eeqks2rf26m4hk8fd1vr; _csrf=3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gjE5RdTYc_eGMPoin8pTi_HonMdLh6su%22%3B%7D'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2-basic-new/index.php'
+    'REMOTE_PORT' => '59952'
+    'REDIRECT_URL' => '/yii2-basic-new/assets/images/users/avatar-1.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-basic-new/assets/images/users/avatar-1.jpg'
+    'SCRIPT_NAME' => '/yii2-basic-new/index.php'
+    'PHP_SELF' => '/yii2-basic-new/index.php'
+    'REQUEST_TIME_FLOAT' => 1591598669.384
+    'REQUEST_TIME' => 1591598669
+]
+2020-06-08 06:44:29 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/images/logo-sm-dark.png". in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/images/l...', Array)
+#1 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-06-08 06:44:29 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '5294f0eeqks2rf26m4hk8fd1vr'
+    '_csrf' => '3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gjE5RdTYc_eGMPoin8pTi_HonMdLh6su\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/yii2-basic-new/'
+    'HTTP_COOKIE' => 'PHPSESSID=5294f0eeqks2rf26m4hk8fd1vr; _csrf=3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gjE5RdTYc_eGMPoin8pTi_HonMdLh6su%22%3B%7D'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2-basic-new/index.php'
+    'REMOTE_PORT' => '59950'
+    'REDIRECT_URL' => '/yii2-basic-new/assets/images/logo-sm-dark.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-basic-new/assets/images/logo-sm-dark.png'
+    'SCRIPT_NAME' => '/yii2-basic-new/index.php'
+    'PHP_SELF' => '/yii2-basic-new/index.php'
+    'REQUEST_TIME_FLOAT' => 1591598669.384
+    'REQUEST_TIME' => 1591598669
+]
+2020-06-08 06:44:29 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/images/logo-light.png". in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/images/l...', Array)
+#1 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-06-08 06:44:29 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '5294f0eeqks2rf26m4hk8fd1vr'
+    '_csrf' => '3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gjE5RdTYc_eGMPoin8pTi_HonMdLh6su\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/yii2-basic-new/'
+    'HTTP_COOKIE' => 'PHPSESSID=5294f0eeqks2rf26m4hk8fd1vr; _csrf=3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gjE5RdTYc_eGMPoin8pTi_HonMdLh6su%22%3B%7D'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2-basic-new/index.php'
+    'REMOTE_PORT' => '59958'
+    'REDIRECT_URL' => '/yii2-basic-new/assets/images/logo-light.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-basic-new/assets/images/logo-light.png'
+    'SCRIPT_NAME' => '/yii2-basic-new/index.php'
+    'PHP_SELF' => '/yii2-basic-new/index.php'
+    'REQUEST_TIME_FLOAT' => 1591598669.393
+    'REQUEST_TIME' => 1591598669
+]
+2020-06-08 06:44:29 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/images/logo-sm-light.png". in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/images/l...', Array)
+#1 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-06-08 06:44:29 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '5294f0eeqks2rf26m4hk8fd1vr'
+    '_csrf' => '3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gjE5RdTYc_eGMPoin8pTi_HonMdLh6su\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/yii2-basic-new/'
+    'HTTP_COOKIE' => 'PHPSESSID=5294f0eeqks2rf26m4hk8fd1vr; _csrf=3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gjE5RdTYc_eGMPoin8pTi_HonMdLh6su%22%3B%7D'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2-basic-new/index.php'
+    'REMOTE_PORT' => '59956'
+    'REDIRECT_URL' => '/yii2-basic-new/assets/images/logo-sm-light.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-basic-new/assets/images/logo-sm-light.png'
+    'SCRIPT_NAME' => '/yii2-basic-new/index.php'
+    'PHP_SELF' => '/yii2-basic-new/index.php'
+    'REQUEST_TIME_FLOAT' => 1591598669.39
+    'REQUEST_TIME' => 1591598669
+]
+2020-06-08 06:44:29 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/images/logo-dark.png". in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/images/l...', Array)
+#1 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-06-08 06:44:29 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '5294f0eeqks2rf26m4hk8fd1vr'
+    '_csrf' => '3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gjE5RdTYc_eGMPoin8pTi_HonMdLh6su\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/yii2-basic-new/'
+    'HTTP_COOKIE' => 'PHPSESSID=5294f0eeqks2rf26m4hk8fd1vr; _csrf=3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gjE5RdTYc_eGMPoin8pTi_HonMdLh6su%22%3B%7D'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2-basic-new/index.php'
+    'REMOTE_PORT' => '59954'
+    'REDIRECT_URL' => '/yii2-basic-new/assets/images/logo-dark.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-basic-new/assets/images/logo-dark.png'
+    'SCRIPT_NAME' => '/yii2-basic-new/index.php'
+    'PHP_SELF' => '/yii2-basic-new/index.php'
+    'REQUEST_TIME_FLOAT' => 1591598669.384
+    'REQUEST_TIME' => 1591598669
+]
+2020-06-08 06:44:29 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/images/widget-img.png". in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/images/w...', Array)
+#1 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-06-08 06:44:29 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '5294f0eeqks2rf26m4hk8fd1vr'
+    '_csrf' => '3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gjE5RdTYc_eGMPoin8pTi_HonMdLh6su\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/yii2-basic-new/'
+    'HTTP_COOKIE' => 'PHPSESSID=5294f0eeqks2rf26m4hk8fd1vr; _csrf=3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gjE5RdTYc_eGMPoin8pTi_HonMdLh6su%22%3B%7D'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2-basic-new/index.php'
+    'REMOTE_PORT' => '59948'
+    'REDIRECT_URL' => '/yii2-basic-new/assets/images/widget-img.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-basic-new/assets/images/widget-img.png'
+    'SCRIPT_NAME' => '/yii2-basic-new/index.php'
+    'PHP_SELF' => '/yii2-basic-new/index.php'
+    'REQUEST_TIME_FLOAT' => 1591598669.394
+    'REQUEST_TIME' => 1591598669
+]
+2020-06-08 06:44:41 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/images/users/avatar-1.jpg". in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/images/u...', Array)
+#1 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-06-08 06:44:41 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '5294f0eeqks2rf26m4hk8fd1vr'
+    '_csrf' => '3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gjE5RdTYc_eGMPoin8pTi_HonMdLh6su\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/yii2-basic-new/'
+    'HTTP_COOKIE' => 'PHPSESSID=5294f0eeqks2rf26m4hk8fd1vr; _csrf=3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gjE5RdTYc_eGMPoin8pTi_HonMdLh6su%22%3B%7D'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2-basic-new/index.php'
+    'REMOTE_PORT' => '59978'
+    'REDIRECT_URL' => '/yii2-basic-new/assets/images/users/avatar-1.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-basic-new/assets/images/users/avatar-1.jpg'
+    'SCRIPT_NAME' => '/yii2-basic-new/index.php'
+    'PHP_SELF' => '/yii2-basic-new/index.php'
+    'REQUEST_TIME_FLOAT' => 1591598681.674
+    'REQUEST_TIME' => 1591598681
+]
+2020-06-08 06:44:41 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/images/logo-sm-dark.png". in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/images/l...', Array)
+#1 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-06-08 06:44:41 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '5294f0eeqks2rf26m4hk8fd1vr'
+    '_csrf' => '3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gjE5RdTYc_eGMPoin8pTi_HonMdLh6su\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/yii2-basic-new/'
+    'HTTP_COOKIE' => 'PHPSESSID=5294f0eeqks2rf26m4hk8fd1vr; _csrf=3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gjE5RdTYc_eGMPoin8pTi_HonMdLh6su%22%3B%7D'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2-basic-new/index.php'
+    'REMOTE_PORT' => '59980'
+    'REDIRECT_URL' => '/yii2-basic-new/assets/images/logo-sm-dark.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-basic-new/assets/images/logo-sm-dark.png'
+    'SCRIPT_NAME' => '/yii2-basic-new/index.php'
+    'PHP_SELF' => '/yii2-basic-new/index.php'
+    'REQUEST_TIME_FLOAT' => 1591598681.677
+    'REQUEST_TIME' => 1591598681
+]
+2020-06-08 06:44:41 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/images/logo-dark.png". in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/images/l...', Array)
+#1 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-06-08 06:44:41 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '5294f0eeqks2rf26m4hk8fd1vr'
+    '_csrf' => '3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gjE5RdTYc_eGMPoin8pTi_HonMdLh6su\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/yii2-basic-new/'
+    'HTTP_COOKIE' => 'PHPSESSID=5294f0eeqks2rf26m4hk8fd1vr; _csrf=3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gjE5RdTYc_eGMPoin8pTi_HonMdLh6su%22%3B%7D'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2-basic-new/index.php'
+    'REMOTE_PORT' => '59988'
+    'REDIRECT_URL' => '/yii2-basic-new/assets/images/logo-dark.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-basic-new/assets/images/logo-dark.png'
+    'SCRIPT_NAME' => '/yii2-basic-new/index.php'
+    'PHP_SELF' => '/yii2-basic-new/index.php'
+    'REQUEST_TIME_FLOAT' => 1591598681.679
+    'REQUEST_TIME' => 1591598681
+]
+2020-06-08 06:44:41 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/images/logo-sm-light.png". in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/images/l...', Array)
+#1 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-06-08 06:44:41 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '5294f0eeqks2rf26m4hk8fd1vr'
+    '_csrf' => '3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gjE5RdTYc_eGMPoin8pTi_HonMdLh6su\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/yii2-basic-new/'
+    'HTTP_COOKIE' => 'PHPSESSID=5294f0eeqks2rf26m4hk8fd1vr; _csrf=3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gjE5RdTYc_eGMPoin8pTi_HonMdLh6su%22%3B%7D'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2-basic-new/index.php'
+    'REMOTE_PORT' => '59984'
+    'REDIRECT_URL' => '/yii2-basic-new/assets/images/logo-sm-light.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-basic-new/assets/images/logo-sm-light.png'
+    'SCRIPT_NAME' => '/yii2-basic-new/index.php'
+    'PHP_SELF' => '/yii2-basic-new/index.php'
+    'REQUEST_TIME_FLOAT' => 1591598681.685
+    'REQUEST_TIME' => 1591598681
+]
+2020-06-08 06:44:41 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/images/logo-light.png". in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/images/l...', Array)
+#1 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/yii2-basic-new/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/yii2-basic-new/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-06-08 06:44:41 [127.0.0.1][-][5294f0eeqks2rf26m4hk8fd1vr][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '5294f0eeqks2rf26m4hk8fd1vr'
+    '_csrf' => '3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gjE5RdTYc_eGMPoin8pTi_HonMdLh6su\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/yii2-basic-new/'
+    'HTTP_COOKIE' => 'PHPSESSID=5294f0eeqks2rf26m4hk8fd1vr; _csrf=3184ff9fc29cfbd0cd3cfc9f1ba6dc0c297768f71be2353ac217eeb79b2be301a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gjE5RdTYc_eGMPoin8pTi_HonMdLh6su%22%3B%7D'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2-basic-new/index.php'
+    'REMOTE_PORT' => '59986'
+    'REDIRECT_URL' => '/yii2-basic-new/assets/images/logo-light.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-basic-new/assets/images/logo-light.png'
+    'SCRIPT_NAME' => '/yii2-basic-new/index.php'
+    'PHP_SELF' => '/yii2-basic-new/index.php'
+    'REQUEST_TIME_FLOAT' => 1591598681.717
+    'REQUEST_TIME' => 1591598681
+]

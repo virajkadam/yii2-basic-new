@@ -33,9 +33,34 @@ AppAsset::register($this);
 					<div class="container-fluid">
 						<div class="float-right">
 
+							<div class="dropdown d-inline-block ml-2">
+								<button type="button" class="btn header-item noti-icon waves-effect" id="page-header-search-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<i class="mdi mdi-magnify"></i>
+								</button>
+								<div class="dropdown-menu dropdown-menu-lg dropdown-menu-right p-0" aria-labelledby="page-header-search-dropdown">
+
+									<form class="p-3">
+										<div class="form-group m-0">
+											<div class="input-group">
+												<input type="text" class="form-control" placeholder="Search ..." aria-label="Recipient's username">
+												<div class="input-group-append">
+													<button class="btn btn-primary" type="submit"><i class="mdi mdi-magnify"></i></button>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+
+							<div class="dropdown d-inline-block">
+								<button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect">
+									<i class="mdi mdi-tune"></i>
+								</button>
+							</div>
+
 							<div class="dropdown d-inline-block">
 								<button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-
+									<img class="rounded-circle header-profile-user" src="assets/images/users/avatar-1.jpg" alt="Header Avatar">
 									<span class="d-none d-sm-inline-block ml-1">Smith</span>
 									<i class="mdi mdi-chevron-down d-none d-sm-inline-block"></i>
 								</button>
@@ -136,6 +161,52 @@ AppAsset::register($this);
 
 													</div>
 												</li>
+
+													<li class="nav-item dropdown">
+														<a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-more" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+															Extra pages <div class="arrow-down"></div>
+														</a>
+														<div class="dropdown-menu" aria-labelledby="topnav-more">
+															<div class="dropdown">
+																<a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-auth" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Authentication <div class="arrow-down"></div>
+																</a>
+																<div class="dropdown-menu" aria-labelledby="topnav-auth">
+																	<a href="auth-login.html" class="dropdown-item">Login</a>
+																	<a href="auth-register.html" class="dropdown-item">Register</a>
+																	<a href="auth-recoverpw.html" class="dropdown-item">Recover Password</a>
+																	<a href="auth-lock-screen.html" class="dropdown-item">Lock Screen</a>
+																</div>
+															</div>
+															<div class="dropdown">
+																<a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-utility" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Utility <div class="arrow-down"></div>
+																</a>
+																<div class="dropdown-menu" aria-labelledby="topnav-utility">
+																	<a href="pages-starter.html" class="dropdown-item">Starter Page</a>
+																	<a href="pages-maintenance.html" class="dropdown-item">Maintenance</a>
+																	<a href="pages-comingsoon.html" class="dropdown-item">Coming Soon</a>
+																	<a href="pages-timeline.html" class="dropdown-item">Timeline</a>
+																	<a href="pages-gallery.html" class="dropdown-item">Gallery</a>
+																	<a href="pages-faqs.html" class="dropdown-item">FAQs</a>
+																	<a href="pages-pricing.html" class="dropdown-item">Pricing</a>
+																	<a href="pages-404.html" class="dropdown-item">Error 404</a>
+																	<a href="pages-500.html" class="dropdown-item">Error 500</a>
+																</div>
+															</div>
+															<div class="dropdown">
+																<a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-layout" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Layouts <div class="arrow-down"></div>
+																</a>
+																<div class="dropdown-menu" aria-labelledby="topnav-layout">
+																	<a href="layouts-vertical.html" class="dropdown-item">Vertical</a>
+																	<a href="layouts-topbar-light.html" class="dropdown-item">Light Topbar</a>
+																	<a href="layouts-topbar-dark.html" class="dropdown-item">Dark Topbar</a>
+																	<a href="layouts-full-width.html" class="dropdown-item">Full width</a>
+																</div>
+															</div>
+														</div>
+													</li>
 
 												</ul>
 											</div>
